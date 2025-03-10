@@ -10,6 +10,17 @@
 !.yarn/releases
 !.yarn/versions
 
+# Backend específico
+/backend/node_modules
+/backend/dist
+/backend/.env
+
+# Frontend específico
+/frontend/node_modules
+/frontend/.next
+/frontend/out
+/frontend/.env.local
+
 # testing
 /coverage
 
